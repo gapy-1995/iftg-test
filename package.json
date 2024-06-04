@@ -1,0 +1,22 @@
+{
+  "name": "iftg-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-dev": "ENV=development npx playwright test", // run test with dev environment
+    "test-stag": "ENV=staging npx playwright test" // run test with staging environment
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12",
+    "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright-tesults-reporter": "^1.1.0"
+  }
+}
